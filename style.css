@@ -52,3 +52,121 @@ section {
 section i {
     margin: 0 auto 0 20px;
 }
+.img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.img-container .one {
+    background-image: url(assets/img-one.jpg);
+}
+.img-container .two {
+    background-image: url(assets/img-two.jpg);
+}
+.img-container .three {
+    background-image: url(assets/img-three.jpg);
+}
+.img-container .four {
+    background-image: url(assets/img-four.jpg);
+}
+.img-tile {
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px 75px;
+}
+.img-tile > div {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.img-tile h2 {
+    font-size: 100px;
+    line-height: 1;
+    font-weight: 400;
+}
+.img-tile span {
+    background-color: rgba(255, 255, 255, .25);
+    padding: 6px 16px;
+    border-radius: 25px;
+    line-height: 1;
+}
+.all-works {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 0px;
+    gap: 25px;
+}
+.all-works p {
+    text-align: center;
+    opacity: .5;
+}
+.all-works button {
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.area h2 {
+    font-size: 75px;
+    font-weight: 300;
+    line-height: 1;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+    padding: 0px 150px;
+}
+.contact > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.contact i {
+    font-size: 20px;
+}
+.contact span {
+    font-size: 20px;
+    line-height: 1;
+}
+.op {
+    opacity: .5;
+}
+.story {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story h1 {
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 1;
+}
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+footer div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
